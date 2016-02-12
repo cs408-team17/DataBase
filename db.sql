@@ -22,6 +22,6 @@ create table Group_info(
 INSERT INTO User_info VALUES (1,'XXX','password','xxx@gmail.com');
 INSERT INTO User_info VALUES (2, 'YYY','pass','yyy@gmail.com');
 
-INSERT INTO Contact VALUES (1, 2, 1);
+INSERT INTO Contact VALUES (1, 2);
 
-INSERT INTO Group_info VALUES (1, 'CS 448');
+INSERT INTO Group_info VALUES (1, 'CS 448',1);
